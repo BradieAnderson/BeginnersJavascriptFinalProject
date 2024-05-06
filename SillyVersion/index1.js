@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		const initialInvestment = 
 			parseFloat(document.getElementById("intInvestment").value); 
 		const interestRate = 
-			parseFloat(document.getElementById("intRate").value) / 100; 
+			parseFloat(document.getElementById("inteRate").value) / 100; 
 		const investmentYears = 
 			parseInt(document.getElementById("investment-years").value); 
 		let totalAmount = initialInvestment; 
