@@ -25,5 +25,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function setHalfVolume() {
     var myAudio = document.getElementById("audio1");  
-    myAudio.volume = 0.05;
+    myAudio.volume = 0.01;
 }
