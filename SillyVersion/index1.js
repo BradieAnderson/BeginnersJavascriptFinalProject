@@ -1,3 +1,8 @@
+function setHalfVolume() {
+    var myAudio = document.getElementById("audio1");  
+    myAudio.volume = 0.05;
+}
+
 document.addEventListener("DOMContentLoaded", function () { 
 	const button = 
 		document.getElementById("calculate-button"); 
@@ -22,8 +27,3 @@ document.addEventListener("DOMContentLoaded", function () {
 		` will be worth $${totalAmount.toFixed(2)}. ` + `<p> <h6> (It's okay babe, I'm never going to be able to afford a house either lol) </h6></p>`; 
 	}); 
 }); 
-
-function setHalfVolume() {
-    var myAudio = document.getElementById("audio1");  
-    myAudio.volume = 0.01;
-}
